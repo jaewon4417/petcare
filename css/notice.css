@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+legend { display:none }
+caption { display: none;}
+
+.noticeBox { padding-top:80px; padding-bottom:80px }
+.noticeBox h2 { font-size:30px; padding:40px 0 0 0 ;text-align: center;}
+.noticeBox h3 { font-size:20px; padding:20px 0 ;text-align: center;font-family: 'Courier New', Courier, monospace;}
+.noticeBox .search {text-align: right;}
+.noticeBox .search select,
+.noticeBox .search input,
+.noticeBox .search button {
+    height: 35px; vertical-align:middel;
+}
+.noticeBox .search button { background: #000; border: none; color:#fff;
+padding:0 5px; border-radius: 3px;}
+.noticeBox table { margin: 20px 0 30px;}
+.noticeBox table table { border: none;}
+.noticeBox table col:nth-child(1) { width: 8%;}
+.noticeBox table col:nth-child(2) { width: auto;}
+.noticeBox table col:nth-child(3) { width: 13%;}
+.noticeBox table col:nth-child(4) { width: 13%;}
+.noticeBox table col:nth-child(5) { width: 8%;}
+.noticeBox table th {
+    border-top: 0.5px solid #000;
+    border-bottom: 0.3px solid #ddd;
+    padding: 15px 5px;
+}
+.noticeBox table td {
+    border-top: 0px solid #000;
+    border-bottom: 0px solid #ddd;
+    padding: 9px 5px;
+    font-size: 13px;
+    color: #555;
+}
+.noticeBox table td:hover { color:black}
+.noticeBox table th { 
+    background: #fff;
+    border-top: 1px solid #000;
+}
+.noticeBox table td {
+    white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+}
+.noticeBox table tbody td:nth-child(1),
+.noticeBox table tbody td:nth-child(3),
+.noticeBox table tbody td:nth-child(4),
+.noticeBox table tbody td:nth-child(5) { text-align: center;}
+.noticeBox .num-list {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.noticeBox .num-list span,
+.noticeBox .num-list a {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 3px;
+}
+.noticeBox .num-list span {
+    background: #333;
+    color: #fff;
+}
+.noticeBox .num-list a.act,
+.noticeBox .num-list a:hover {
+    color: #555;
+    border-bottom: 1px solid #555;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .noticeBox table col:nth-child(1) { width: 8%;}
+    .noticeBox table col:nth-child(2) { width: auto;}
+    .noticeBox table col:nth-child(3) { width: 13%;}
+    .noticeBox table col:nth-child(4) { width: 13%; display: none;}
+    .noticeBox table col:nth-child(5) { width: 8%; display: none;}
+    .noticeBox table thead th:nth-child(4),
+    .noticeBox table thead th:nth-child(5) { display: none;}
+    .noticeBox table tbody td:nth-child(4),
+    .noticeBox table tbody td:nth-child(5) { display: none;}
+}
+@media screen and (max-width:500px) {
+    .noticeBox table col:nth-child(1) { width: 8%;display: none;}
+    .noticeBox table col:nth-child(2) { width: auto;}
+    .noticeBox table col:nth-child(3) { width: 13%;display: none;}
+    .noticeBox table col:nth-child(4) { width: 13%; display: none;}
+    .noticeBox table col:nth-child(5) { width: 8%; display: none;}
+    .noticeBox table thead th:nth-child(1),
+    .noticeBox table thead th:nth-child(3) { display: none;}
+    .noticeBox table tbody td:nth-child(1),
+    .noticeBox table tbody td:nth-child(3) { display: none;}
+}

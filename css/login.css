@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+legend { display:none }
+
+.loginBox { padding-top:80px; padding-bottom:80px }
+.loginBox h2 { font-size:30px; padding:40px 0 0 0 ; text-align: center; color:#000;}
+.loginBox h3 { font-size:20px; padding:20px 0 ;text-align: center;font-family: 'Courier New', Courier, monospace;}
+.loginBox p { text-align: center; font-size: 13px;}
+.loginBox .outer {
+    border:1px solid #ddd;
+    margin:20px 0;
+    padding:67px 0;
+    text-align:center;
+    border-radius: 5px;
+}
+
+.loginBox .outer div { display:inline-block; vertical-align:middle }
+.loginBox .outer label { display:inline-block; 
+    width:70px; text-align:left; vertical-align:middle
+}
+.loginBox .outer input {
+    width:200px; height:35px; vertical-align:middle
+}
+.loginBox .outer p { margin:10px 0 }
+.loginBox .outer button { width:100px; height:80px; vertical-align:middle;
+    background:#000; color:#fff; font-size:15px; border:none;
+    border-radius:3px; cursor:pointer
+}
