@@ -302,9 +302,6 @@ position: relative;}
     width:457px; height: 308px; 
     left:10px;
 }
-.article4 .service.on > img{ 
-   background: url(../img/dog.jpg) no-repeat center;
-}
 .article4 .service .svintro { float: right;
 max-width: 555px;
 margin: 0 auto;
