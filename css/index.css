@@ -294,12 +294,16 @@ color:#fff
     padding-top: 14px;
     letter-spacing: 1.6px;
 }
-.article4 .service {padding-top: 70px;
+.article4 .service {
+    padding-top: 70px;
 position: relative;}
-.article4 .service > img { float: left;
-    width:457px; height: 308px;
-  
+.article4 .service > img { 
+    float: left;
+    width:457px; height: 308px; 
     left:10px;
+}
+.article4 .service.on > img{ 
+   background: url(../img/dog.jpg) no-repeat center;
 }
 .article4 .service .svintro { float: right;
 max-width: 555px;
